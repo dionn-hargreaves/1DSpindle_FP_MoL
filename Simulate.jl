@@ -27,7 +27,7 @@ using AMatrix
     yMax       = 6.0
     y          = LinRange(0,yMax,Y)
 
-    Γ          = 0.02
+    Γ          = 20
 
     γ          = 2
     ω_off      = 0.001*exp.(γ.*y)  # off rate is extension sensitive
